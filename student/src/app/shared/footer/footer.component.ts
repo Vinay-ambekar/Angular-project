@@ -7,4 +7,21 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+list01=[
+  {
+    icon:'fa fa-facebook-f'
+  },
+  {
+    icon:'fa fa-github'
+  },
+  {
+    icon:'fa fa-instagram'
+  },
+  {
+    icon:'fa fa-whatsapp'
+  },
+  {
+    icon:'fa fa-envelope-o'
+  }
+]
 }
