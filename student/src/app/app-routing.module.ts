@@ -3,8 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { AddStudentComponent } from './pages/add-student/add-student.component';
 import { DisplayStudentComponent } from './pages/display-student/display-student.component';
+import { LoginComponent } from './pages/login/login.component';
 
 const routes: Routes = [
+  {
+    path:'',component:LoginComponent
+  },
   {
     component:HomeComponent,
     path:'home'

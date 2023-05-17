@@ -1,0 +1,38 @@
+.login{
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    
+}
+ /* table {
+    
+    border: 1px solid black;
+}      */
+.box{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    
+    
+
+} 
+button{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+h2{
+    border: 1px solid black;  
+      width: 300px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    }
+
+
+    
