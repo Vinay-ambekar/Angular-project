@@ -1,5 +1,5 @@
 
-<div class="main">
+<div class="main" *ngIf="appear">
   <app-header (sideNavToggled)="sideNavStatus=$event"></app-header>
   <main>
     <div class="footer">
@@ -15,6 +15,7 @@
   </main>
   
 </div>
+<app-login *ngIf="showLogin" (buttonClick)="handleButtonClick()" [appear]="appear"></app-login>
  
 
  

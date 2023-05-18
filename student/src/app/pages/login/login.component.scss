@@ -25,6 +25,12 @@
 button{
     margin-top: 10px;
     margin-left: 150px;
+    background-color: black;
+    color:white;
+    border-radius:30% ;
+}
+button:hover{
+    background-color: rgb(34, 34, 34);
 }
 h2{
     border: 1px solid black;  

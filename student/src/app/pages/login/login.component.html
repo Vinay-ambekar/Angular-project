@@ -7,7 +7,7 @@
             <label>Enter the email: </label>
         </tr>
         <tr>
-            <input type="text">
+            <input type="text" [(ngModel)]="email">
 
         </tr>
         <tr>
@@ -15,13 +15,13 @@
             
         </tr>
 <tr>
-    <input type="password">   
+    <input type="password" [(ngModel)]="password">   
 </tr>
 
     
 
     </table>
-    <button>Login</button>
+    <button (click)="onButtonClick()">Login</button>
 </div>
 
           

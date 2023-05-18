@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'header';
   sideNavStatus:boolean=false;
+  appear:boolean=false;
+  showLogin: boolean = true;
+  handleButtonClick(): void {
+    this.appear = true;
+    this.showLogin = false;
+  }
 }

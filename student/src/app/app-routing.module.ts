@@ -6,9 +6,7 @@ import { DisplayStudentComponent } from './pages/display-student/display-student
 import { LoginComponent } from './pages/login/login.component';
 
 const routes: Routes = [
-  {
-    path:'',component:LoginComponent
-  },
+
   {
     component:HomeComponent,
     path:'home'
