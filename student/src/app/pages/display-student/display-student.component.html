@@ -5,18 +5,27 @@
   <table>
     
     <tr>
+      <th>#</th>
       <th>Name</th>
       <th>Collage</th>
       <th>Address</th>
       <th>Rolle Number</th>
       <th>Marks</th>
+      <th>contact number</th>
+      <th>Action</th>
+
     </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+    <tr *ngFor="let student of students;let i=index">
+      <td>{{i+1}}</td>
+      <td>{{ student.name }}</td>
+      <td>{{ student.college }}</td>
+      <td>{{ student.address }}</td>
+      <td>{{ student.rollnumber }}</td>
+      <td>{{student.marks}}</td>
+      <td>{{student.contactno}}</td>
+      <td>
+        <button (click)="deleteStudent(student)">Delete</button>
+      </td>
     </tr>
   </table>
 </div>
