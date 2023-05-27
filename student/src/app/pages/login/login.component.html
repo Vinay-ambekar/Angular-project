@@ -1,6 +1,6 @@
 <div class="login">
     
-    <div class="box">
+   <!--  <div class="box">
         <h2>Pleases Login</h2>
             <table>
         <tr>
@@ -22,8 +22,26 @@
 
     </table>
     <button (click)="onButtonClick()">Login</button>
-</div>
+</div> -->
+<div class="container">
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control"placeholder="Enter email"  name="email" [(ngModel)]="email">
+          
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control"  placeholder="Password" name="password" [(ngModel)]="password">
+        </div>
+     
+        <button type="submit" class="btn btn-primary" (click)="onButtonClick()">Submit</button>
+      </form>
 
+</div>
           
    
 </div>
+
+
+

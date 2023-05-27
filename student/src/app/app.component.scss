@@ -19,7 +19,8 @@ app-side-nav{
     height:calc(100vh - 3rem);
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
     /* background-color: rgba(34,34,34,1); */
-    background-color: rgb(17, 17, 17); 
+    /* background-color: rgb(17, 17, 17);  */
+    background-color:rgb(143, 174, 238);
     overflow: hidden;
     white-space:nowrap
 }
@@ -33,12 +34,12 @@ app-side-nav{
 
 }
 .footer{
-    border: 1px solid black;
+   /*  border: 1px solid black; */
     position: fixed;
     bottom:0;
     left: 0;
     right: 0;
-    background-color: black;
+    background-color:rgb(104, 150, 243);
     color: white;
     z-index: 1;
 }
