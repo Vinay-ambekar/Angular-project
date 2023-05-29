@@ -1,13 +1,33 @@
 <div class="side-nav-content border-white">
-    <ul class="nav-list" [ngClass]="{'nav-list-open': sideNavStatus }">
+    <h4>{{Student_Details}}</h4>
+  <!--   <ul class="nav-list" [ngClass]="{'nav-list-open': sideNavStatus }">
         <li class="nav-list-item" *ngFor="let item of list">
             <i class="{{''}}"></i>
             <span>
-                <a href="#">{{item.name}}</a>
+                
             </span>
         </li>
-        
+    </ul> -->
 
-    </ul>
-
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="nav-link" href="#" role="button" routerLink="home">
+                Home
+            </a>
+            <a class="nav-link" href="#" role="button" routerLink="add-student">
+                Add Student
+            </a>
+            <a class="nav-link" href="#" role="button" routerLink="Display-Student">
+                Disply Student
+            </a>
+            <a class="nav-link" href="#" role="button" routerLink="login">
+                login
+            </a>
+        </div>
+      </div>
+      
+   
 </div>

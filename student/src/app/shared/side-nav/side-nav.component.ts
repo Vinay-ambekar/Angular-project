@@ -7,10 +7,12 @@ import { Component,Input } from '@angular/core';
 })
 export class SideNavComponent {
   @Input() sideNavStatus:boolean=false;
+  Student_Details:string='Student Detials'
+  
   list=[
     {
       number:'1',
-      name:'Side Nav Bar',
+      name:'Student-Details',
       icon:'fa-solid fa-house',
     },
   /*   {

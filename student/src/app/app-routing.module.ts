@@ -19,6 +19,10 @@ const routes: Routes = [
     component:DisplayStudentComponent,
     path:'Display-Student'
   },
+  {
+    component:LoginComponent,
+    path:'login'
+  }
 
 ];
 
