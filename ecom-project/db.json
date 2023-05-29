@@ -1,0 +1,55 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "name": "vini",
+      "email": "c@gmail.com",
+      "password": "v1234",
+      "id": 2
+    },
+    {
+      "name": "vini",
+      "email": "c@dggmail.com",
+      "password": "v1234dfgdf",
+      "id": 3
+    },
+    {
+      "data": {
+        "name": "sdf",
+        "password": "dfgdg",
+        "email": "v@gmail.com"
+      },
+      "id": 4
+    },
+    {
+      "data": {
+        "name": "petter",
+        "password": "p1234",
+        "email": "p@gmail.com"
+      },
+      "id": 5
+    },
+    {
+      "data": {
+        "name": "heter",
+        "password": "h1234",
+        "email": "h@gmail.com"
+      },
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
