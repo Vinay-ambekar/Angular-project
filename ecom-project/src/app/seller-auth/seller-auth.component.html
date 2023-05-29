@@ -1,0 +1,12 @@
+<div class="seller-auth">
+    <div class="signup">
+        <h1>seller sign-up</h1>
+        <!-- here we are using 'Template Driven Form', another is Reactive Form => [formGroup]="sellerSignUp" -->
+        <form #sellerSignUp="ngForm" (ngSubmit)="signup(sellerSignUp.value)"     class="common-form">
+            <input class="form-input" type="text" name="name" ngModel placeholder="enter name">
+            <input class="form-input" type="text" name="password" ngModel placeholder="enter password">
+            <input class="form-input" type="text" name="email" ngModel placeholder="enter Email">
+            <button class="form-button">signup</button>
+        </form>
+    </div>
+</div>
