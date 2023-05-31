@@ -12,6 +12,9 @@ export class ProductService {
     return this.http.post('http://localhost:3000/product',data)
   }
   productList(){
-    return this.http.get('http://localhost:3000/product')
+    return this.http.get<product[]>('http://localhost:3000/product')
+  }
+  deletProduct(id:number){
+   return this.http.delete(`http://localhost:3000/product/${id}`)
   }
 }

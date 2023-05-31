@@ -70,33 +70,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0568/5942/7015/products/MQ4X3HN_A_1.jpg?v=1662718700",
       "description": "hello users",
       "id": 1
-    },
-    {
-      "name": "sdf",
-      "color": "dsf",
-      "price": "sdf",
-      "category": "sdf",
-      "description": "fds",
-      "image": "sd",
-      "id": 2
-    },
-    {
-      "name": "gf",
-      "color": "hg",
-      "price": "gfh",
-      "category": "ghj",
-      "description": "ghj",
-      "image": "g",
-      "id": 3
-    },
-    {
-      "name": "gf",
-      "color": "hg",
-      "price": "gfh",
-      "category": "ghj",
-      "description": "ghj",
-      "image": "g",
-      "id": 4
     }
   ]
 }
