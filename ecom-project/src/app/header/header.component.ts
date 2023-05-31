@@ -16,18 +16,19 @@ ngOnInit(): void {
 
   this.router.events.subscribe((val:any)=>{
     if(val.url){
-      console.warn(val.url)
+     //console.warn(val.url)
       if(localStorage.getItem('seller') && val.url.includes('seller')){
-        console.warn("i am in seller area")
+        //console.warn("i am in seller area")
         this.menuType="seller";
         if(localStorage.getItem('seller')){
           let sellerStore=localStorage.getItem('seller')
-          let sellerData=sellerStore && JSON.parse(sellerStore)[0];
-          this.sellerName=sellerData.name
+          let sellerData=sellerStore && JSON.parse(sellerStore)[0];//error is occur while signup
+          this.sellerName=sellerData.name;//error is occur while signup
+          //console.log(sellerData)//error is occur while signup
         }
         
       }else{
-        console.warn("out side seller")
+        //console.warn("out side seller")
         this.menuType='default'
       }
     }

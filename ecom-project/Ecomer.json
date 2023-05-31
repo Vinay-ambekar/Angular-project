@@ -1,0 +1,102 @@
+{
+  "seller": [
+    {
+      "name": "u kiran",
+      "email": "k@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "admin",
+      "email": "a@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "name": "sunil",
+      "email": "S@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "vinay",
+      "email": "V@gmail.com",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "name": "jaki",
+      "email": "j@gmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "chan",
+      "email": "C@gmail.com",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "name": "bruce",
+      "email": "b@gmail.com",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "name": "s",
+      "email": "s",
+      "password": "s",
+      "id": 9
+    },
+    {
+      "name": "user",
+      "email": "u@gmail.com",
+      "password": "1234",
+      "id": 10
+    }
+  ],
+  "product": [
+    {
+      "name": "phone 14",
+      "price": "10000",
+      "category": "mobiles",
+      "color": "black",
+      "image": "https://cdn.shopify.com/s/files/1/0568/5942/7015/products/MQ4X3HN_A_1.jpg?v=1662718700",
+      "description": "hello users",
+      "id": 1
+    },
+    {
+      "name": "sdf",
+      "color": "dsf",
+      "price": "sdf",
+      "category": "sdf",
+      "description": "fds",
+      "image": "sd",
+      "id": 2
+    },
+    {
+      "name": "gf",
+      "color": "hg",
+      "price": "gfh",
+      "category": "ghj",
+      "description": "ghj",
+      "image": "g",
+      "id": 3
+    },
+    {
+      "name": "gf",
+      "color": "hg",
+      "price": "gfh",
+      "category": "ghj",
+      "description": "ghj",
+      "image": "g",
+      "id": 4
+    }
+  ]
+}

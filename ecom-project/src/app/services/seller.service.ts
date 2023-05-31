@@ -33,12 +33,13 @@ import { Router } from '@angular/router';
   providedIn: 'root'
 })
 export class SellerService {
+  
   isSellerLoggedIn = new BehaviorSubject<boolean>(false);
   isloginerror= new EventEmitter<boolean>(false)
   constructor(private http: HttpClient, private router: Router) {}
 
   userSignUp(data: signup) {
-    this.http.post('http://localhost:3000/posts', data, { observe: 'response' }).subscribe(
+    this.http.post('http://localhost:3000/seller', data, { observe: 'response' }).subscribe(
       (response) => {
         this.isSellerLoggedIn.next(true);
         localStorage.setItem('seller', JSON.stringify(response.body));
@@ -57,15 +58,15 @@ export class SellerService {
     }
   }
   userLogin(data:login){
-    this.http.get(`http://localhost:3000/posts?email=${data.email}&password=${data.password}`, { observe: 'response' }).subscribe(
+    this.http.get(`http://localhost:3000/seller?email=${data.email}&password=${data.password}`, { observe: 'response' }).subscribe(
       (response:any) => {
-        console.warn(response)
+        //console.warn(response)
        if(response && response.body && response.body.length ){
           localStorage.setItem('seller', JSON.stringify(response.body));
           this.router.navigate(['seller-home']); 
-          console.warn("login ")
+        //  console.warn("login ")
         }else{
-          console.warn("login faild")
+         // console.warn("login faild")
           this.isloginerror.emit(true)
 
         }  
