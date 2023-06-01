@@ -9,7 +9,7 @@ import { product } from '../data-type';
 })
 export class HomeComponent implements OnInit{
 	popularProducts:undefined | product[]
-	//images = [1055, 194, 368].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  trendyProducts: undefined |product[]
 
 	constructor(private product:ProductService) {
 		
@@ -19,6 +19,11 @@ export class HomeComponent implements OnInit{
      console.warn(data)
      this.popularProducts=data
      })
+    
+     this.product.trendyProducts().subscribe((data)=>{
+      this.trendyProducts=data
+     })
+
   }
 }
 

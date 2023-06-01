@@ -87,13 +87,49 @@
       "id": 2
     },
     {
-      "name": "Acer Predator Helios Neo 16",
+      "name": "Acer Predator Helios Neo 16 Lap-Top",
       "price": "1,30,000",
       "color": "black",
       "category": "Laptop",
       "description": "13th Gen Intel Core i7 Processor (16 GB/1 TB SSD/Windows 11 Home/NVIDIA® GeForce RTX™ 4060) PHN16-71, (16\") WQXGA Display",
       "image": "https://m.media-amazon.com/images/I/81E2srXhKVL._SX679_.jpg",
       "id": 3
+    },
+    {
+      "name": "PS 5",
+      "price": "1,00,000",
+      "color": "white",
+      "category": "play station",
+      "description": "Enjoy smooth and fluid high frame rate gameplay at up to 120fps for compatible games, with support for 120Hz output on 4K displays",
+      "image": "https://m.media-amazon.com/images/I/41MloPxj+VL._SX679_.jpg",
+      "id": 4
+    },
+    {
+      "name": "Xbox",
+      "price": "50,000",
+      "color": "black",
+      "category": "Play station",
+      "description": "Xbox game Pass ultimate includes over 100 high-quality games, online multiplayer, and an EA play membership for one low monthly price (Sold separately)",
+      "image": "https://mx2games.com/wp-content/uploads/2021/08/xbox-series-x.jpg",
+      "id": 5
+    },
+    {
+      "name": "Canon Eos R5",
+      "price": "300000",
+      "color": "black",
+      "category": "Full Frame Camera",
+      "description": "Make way for the new king. The EOS R5 is here with groundbreaking 8K resolution video recording, included for the first time ever in a Canon camera.",
+      "image": "https://cdn.shopify.com/s/files/1/0643/2594/3514/products/R5_Front_BODY.jpg?v=1659020412",
+      "id": 6
+    },
+    {
+      "name": "Head Phones",
+      "price": "5000",
+      "color": "white",
+      "category": "head phone",
+      "description": "HyperX CloudX Stinger 2 Core Headset for Xbox - White (6H9B7AA)",
+      "image": "https://m.media-amazon.com/images/I/518fG1KaP+L._SX522_.jpg",
+      "id": 7
     }
   ]
 }
