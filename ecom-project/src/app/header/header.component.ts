@@ -45,7 +45,7 @@ searchProducts(query:KeyboardEvent){
   if(query){
     const element=query.target as HTMLInputElement; 
     this.product.searchProducts(element.value).subscribe((result)=>{
-      console.warn(result)
+      //console.warn(result)
       if(result.length>5){
         result.length=5
       }
@@ -56,7 +56,11 @@ searchProducts(query:KeyboardEvent){
 
 }
 hideSearch(){
-  this.searchResult=undefined
+  this.searchResult=undefined 
 }
+submitSearch(val:string){
+console.warn (val) 
+this.router.navigate([`search/${val}`])
 
+}
 }
