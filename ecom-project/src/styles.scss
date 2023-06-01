@@ -33,3 +33,20 @@ body{
     color:green
 
 }
+.carousel-caption{
+    background-color: rgb(65, 65, 65);
+    border-radius:5px;
+    opacity: 80%;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: black;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 5px;
+}
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

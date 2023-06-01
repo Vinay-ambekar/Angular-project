@@ -1,1 +1,38 @@
-<h1>home page</h1>
+<ngb-carousel *ngIf="popularProducts">
+	<ng-template *ngFor="let item of popularProducts" ngbSlide>
+		<div class="picsum-img-wrapper">
+			<img class="product-header-image" src="{{item.image}}" alt="Random first slide" />
+		</div>
+		<div class="carousel-caption">
+			<h3>{{item.name}}</h3>
+			<p>{{item.description}}</p>
+		</div>
+	</ng-template>
+
+</ngb-carousel>
+<div class="product-list-wrapper">
+    <h1>Trendy Products</h1>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="product-item">
+                <img src="https://m.media-amazon.com/images/I/71J8tz0UeJL._SX679_.jpg" alt="">
+
+            </div>
+            <div class="product-details">
+                <h6 class="name-head">new samsung mobile</h6>
+                <div class="product-price">
+                    <h6>pice:100000</h6>
+                </div>
+                <div class="product-color">
+                    <h6>color:blue</h6>
+                </div>
+
+            </div>
+            <div class="product-footer">
+                <a href="">view Details</a>
+                <a href="">add to cart</a>
+            </div>
+        </div>
+    </div>
+</div>
+
