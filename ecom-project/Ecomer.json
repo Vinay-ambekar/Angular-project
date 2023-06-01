@@ -59,17 +59,32 @@
       "email": "u@gmail.com",
       "password": "1234",
       "id": 10
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 11
     }
   ],
   "product": [
     {
       "name": "phone 14",
-      "price": "10000",
-      "category": "mobiles",
+      "price": "255",
       "color": "black",
-      "image": "https://cdn.shopify.com/s/files/1/0568/5942/7015/products/MQ4X3HN_A_1.jpg?v=1662718700",
+      "category": "mobilessdf",
       "description": "hello users",
+      "image": "https://cdn.shopify.com/s/files/1/0568/5942/7015/products/MQ4X3HN_A_1.jpg?v=1662718700",
       "id": 1
+    },
+    {
+      "name": "sdf",
+      "color": "sdf",
+      "price": "dfg",
+      "category": "dfg",
+      "description": "dg",
+      "image": "dg",
+      "id": 2
     }
   ]
 }
