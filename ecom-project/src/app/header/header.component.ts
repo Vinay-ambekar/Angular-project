@@ -59,8 +59,12 @@ hideSearch(){
   this.searchResult=undefined 
 }
 submitSearch(val:string){
-console.warn (val) 
+
 this.router.navigate([`search/${val}`])
 
+} 
+redirectTodetials(id:number){
+  this.router.navigate(['/details/'+id])
 }
+ 
 }
