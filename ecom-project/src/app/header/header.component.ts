@@ -12,6 +12,7 @@ export class HeaderComponent implements OnInit {
   menuType:string='default';
   sellerName:string=''
   searchResult:undefined | product[]
+  userName:string="";
   constructor(private router:Router, private product:ProductService){
 
 }
@@ -22,15 +23,23 @@ ngOnInit(): void {
      //console.warn(val.url)
       if(localStorage.getItem('seller') && val.url.includes('seller')){
         //console.warn("i am in seller area")
-        this.menuType="seller";
+       // this.menuType="seller";
         if(localStorage.getItem('seller')){
           let sellerStore=localStorage.getItem('seller')
           let sellerData=sellerStore && JSON.parse(sellerStore)[0];//error is occur while signup
-          this.sellerName=sellerData.name;//error is occur while signup
+          this.sellerName=sellerData.name;
+          this.menuType='seller'//error is occur while signup
           //console.log(sellerData)//error is occur while signup
         }
         
-      }else{
+      }else if(localStorage.getItem('user')){
+        let userStore=localStorage.getItem('user');
+        let userData=userStore && JSON.parse(userStore);
+        this.userName=userData.name;
+        this.menuType='user'
+
+      } 
+      else{
         //console.warn("out side seller")
         this.menuType='default'
       }
@@ -40,6 +49,10 @@ ngOnInit(): void {
 logout(){
   localStorage.removeItem('seller')
   this.router.navigate(['/'])
+}
+userLogout(){
+  localStorage.removeItem('user')
+  this.router.navigate(['/user-auth'])
 }
 searchProducts(query:KeyboardEvent){
   if(query){
@@ -67,4 +80,5 @@ redirectTodetials(id:number){
   this.router.navigate(['/details/'+id])
 }
  
+
 }

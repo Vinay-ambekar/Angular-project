@@ -65,6 +65,12 @@
       "email": "",
       "password": "",
       "id": 11
+    },
+    {
+      "name": "sanju",
+      "email": "sanju@gamil.com",
+      "password": "1234",
+      "id": 12
     }
   ],
   "product": [
@@ -130,6 +136,20 @@
       "description": "HyperX CloudX Stinger 2 Core Headset for Xbox - White (6H9B7AA)",
       "image": "https://m.media-amazon.com/images/I/518fG1KaP+L._SX522_.jpg",
       "id": 7
+    }
+  ],
+  "user": [
+    {
+      "name": "tony",
+      "email": "tony@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "viny",
+      "email": "vinay@user.com",
+      "password": "1234",
+      "id": 2
     }
   ]
 }
