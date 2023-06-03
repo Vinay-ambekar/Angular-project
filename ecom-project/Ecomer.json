@@ -76,7 +76,7 @@
   "product": [
     {
       "name": "phone 14",
-      "price": "64,000",
+      "price": "70,000",
       "color": "black",
       "category": "mobile",
       "description": "Advanced single-camera system with 12MP Wide camera; Smart HDR 4, Photographic Styles, Portrait mode, and 4K video up to 60 fps",
@@ -136,6 +136,15 @@
       "description": "HyperX CloudX Stinger 2 Core Headset for Xbox - White (6H9B7AA)",
       "image": "https://m.media-amazon.com/images/I/518fG1KaP+L._SX522_.jpg",
       "id": 7
+    },
+    {
+      "name": "Apple watch ",
+      "price": "50000",
+      "color": "red",
+      "category": "watch",
+      "description": "Apple Watch Series 8 [GPS 45 mm] Smart Watch w/ (Product) RED Aluminium Case with (Product) RED Sport Band. Fitness Tracker, Blood Oxygen & ECG Apps, Always-On Retina Display, Water Resistant",
+      "image": "https://m.media-amazon.com/images/I/71kUZq7ON3L._SX522_.jpg",
+      "id": 8
     }
   ],
   "user": [

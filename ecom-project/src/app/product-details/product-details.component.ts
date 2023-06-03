@@ -32,5 +32,13 @@ if(this.productQuantity<20 && val==='plus'){
   this.productQuantity-=1
 }
 }
+AddToCart(){
+   if(this.productData){
+    this.productData.quantity=this.productQuantity
+    if(!localStorage.getItem('user')){
+    this.product.localAddTocart(this.productData)
+    }
+   }
+}
 }
   

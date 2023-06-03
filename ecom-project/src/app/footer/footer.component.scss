@@ -15,11 +15,20 @@ li{
     align-items: center;
     flex-direction: column;
     position:relative; 
-    bottom: 0;
+    bottom: -90px !important;
     right: 0;
     left: 0;
-    padding-top:50px ;
+    padding-top:100px ;
+ 
     
 }
+p{
+    margin-top: 0;
+    margin-bottom: -1rem;
+}
+
+ 
+
+
     
     
